@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class WaitMethods {
+public class WebElementMethods {
 	
 	static WebDriver driver;
 	
@@ -29,7 +29,7 @@ public class WaitMethods {
 		//2. Send key methods
 		driver.findElement(By.name("username")).sendKeys("User123");
 		driver.findElement(By.name("password")).sendKeys("Password123");
-		
+	
 
 		//3. Clear the text box 
 		driver.findElement(By.name("password")).clear();
