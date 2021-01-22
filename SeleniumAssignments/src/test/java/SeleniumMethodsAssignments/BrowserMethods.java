@@ -35,7 +35,7 @@ public class BrowserMethods {
 		System.out.println("Browser closed");
 		
 		driver.quit();
-		System.out.println("Browser object is disallocated");
+		System.out.println("Browser object is deallocated");
 		
 	}
 
