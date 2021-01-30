@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+       <parameter name ="FirstName" value = "FirstName" />
+	 <parameter name ="LastName" value = "LastName" />
+	 <parameter name ="Street" value = "Street" />
+  	 <parameter name ="City" value = "City" />
+ 	 <parameter name ="State" value = "State" />
+	 <parameter name ="Zip" value = "Zip" />
+ 	 <parameter name ="PhoneNumber" value = "PhoneNumber" />
+	 <parameter name ="Ssn" value = "Ssn" />
+	  <parameter name ="UserName" value = "UserName12345" />
+	 <parameter name ="Password" value = "Password123" />
+    <classes>
+      <class name="seleniumTestPackage.RegisterationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
